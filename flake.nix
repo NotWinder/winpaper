@@ -31,6 +31,8 @@
       wallpkgs = callWallpaper null;
 
       # Call individual collections by category.
+      games = callWallpaper "games";
+      other = callWallpaper "other";
       shows = callWallpaper "shows";
       #catppuccin = callWallpaper "catppuccin";
       #oxocarbon = callWallpaper "oxocarbon";
